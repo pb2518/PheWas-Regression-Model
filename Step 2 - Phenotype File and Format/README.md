@@ -1,0 +1,5 @@
+# Step 2: Phenotype File and Format - Script Outline
+
+The raw phenotype data file (.csv and .R) acquired from UKBB consisted of a single data frame containing 4710 phenotype column variables and 502,536 individual rows of data. A .html file was provided, briefly outlining what each column represents. However, various QC measures were undertaken by applying an automatic filter to remove interfering background populations by genetic ethnic groupings. Due to several erroneous complications and troubleshooting attempts during QC checks regarding the format of the file and datatype class of each variable. The data type class for each 4710 variables was obtained as a list and converted into an R compatible data class type. The UKBB phenotype data was then read in and loaded as a .tab file with the column class conversions applied. At this stage several QC checks for layout and dealing with NA and missing values were also checked and dealt with. An external read in file package was used to reduce the file read in time by ~90%. 
+
+

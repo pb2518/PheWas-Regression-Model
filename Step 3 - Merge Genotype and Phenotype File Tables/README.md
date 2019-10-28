@@ -1,0 +1,3 @@
+# Step 3: Merged Genotype to Phenotype File - Script Outline
+
+The phenotype and genotype files were read in and loaded. The files were then merged together by sample ID. Various QC measures were undertaken to ensure the correct format of the combined table and data classes after the merge. However, several errors arose when reading in the combined output file, so the original merged table variable was used for further analysis 
